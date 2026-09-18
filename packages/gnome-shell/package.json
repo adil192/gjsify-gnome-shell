@@ -710,6 +710,17 @@
       }
     },
     "./ui/ripples/ambient": "./dist/ui/ripples-ambient.d.ts",
+    "./ui/screenShield": {
+      "import": {
+        "types": "./dist/ui/screenShield.d.ts",
+        "default": "./dist/ui/screenShield.js"
+      },
+      "require": {
+        "types": "./dist/ui/screenShield.d.ts",
+        "default": "./dist/ui/screenShield.cjs"
+      }
+    },
+    "./ui/screenShield/ambient": "./dist/ui/screenShield-ambient.d.ts",
     "./ui/search": {
       "import": {
         "types": "./dist/ui/search.d.ts",

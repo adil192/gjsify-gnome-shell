@@ -34,7 +34,7 @@ import { LayoutManager, UiActor } from './layout.js';
 import { NotificationDaemon } from './notificationDaemon.js';
 // import * as WindowAttentionHandler from './windowAttentionHandler.js';
 // import * as Screenshot from './screenshot.js';
-// import * as ScreenShield from './screenShield.js';
+import { ScreenShield } from './screenShield.js';
 // import * as Scripting from './scripting.js';
 // import * as SessionMode from './sessionMode.js';
 // import * as ShellDBus from './shellDBus.js';
@@ -68,7 +68,7 @@ export declare const wm: WindowManager;
 
 export declare const messageTray: MessageTray;
 
-export declare const screenShield: any;
+export declare const screenShield: ScreenShield;
 
 export declare const notificationDaemon: NotificationDaemon;
 
