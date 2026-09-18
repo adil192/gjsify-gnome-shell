@@ -100,7 +100,14 @@ export declare const modalCount: any;
 
 export declare const actionMode: Shell.ActionMode.NONE;
 
-export declare const modalActorFocusStack: any[];
+export declare const modalActorFocusStack: {
+    actor: Clutter.Actor;
+    grab: Clutter.Grab;
+    destroyId: number;
+    prevFocus: Clutter.Actor | null;
+    prevFocusDestroyId: number | undefined;
+    actionMode: Shell.ActionMode;
+}[];
 
 export declare const screenTimeDBus: any;
 
