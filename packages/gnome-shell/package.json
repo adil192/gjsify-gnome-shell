@@ -743,6 +743,17 @@
       }
     },
     "./ui/searchController/ambient": "./dist/ui/searchController-ambient.d.ts",
+    "./ui/sessionMode": {
+      "import": {
+        "types": "./dist/ui/sessionMode.d.ts",
+        "default": "./dist/ui/sessionMode.js"
+      },
+      "require": {
+        "types": "./dist/ui/sessionMode.d.ts",
+        "default": "./dist/ui/sessionMode.cjs"
+      }
+    },
+    "./ui/sessionMode/ambient": "./dist/ui/sessionMode-ambient.d.ts",
     "./ui/slider": {
       "import": {
         "types": "./dist/ui/slider.d.ts",

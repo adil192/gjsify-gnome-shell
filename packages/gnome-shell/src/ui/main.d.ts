@@ -36,7 +36,7 @@ import { NotificationDaemon } from './notificationDaemon.js';
 // import * as Screenshot from './screenshot.js';
 import { ScreenShield } from './screenShield.js';
 // import * as Scripting from './scripting.js';
-// import * as SessionMode from './sessionMode.js';
+import { SessionMode } from './sessionMode.js';
 // import * as ShellDBus from './shellDBus.js';
 // import * as ShellMountOperation from './shellMountOperation.js';
 // import * as TimeLimitsManager from '../misc/timeLimitsManager.js';
@@ -82,7 +82,7 @@ export declare const osdWindowManager: any;
 
 export declare const osdMonitorLabeler: any;
 
-export declare const sessionMode: any;
+export declare const sessionMode: SessionMode;
 
 export declare const screenshotUI: any;
 
